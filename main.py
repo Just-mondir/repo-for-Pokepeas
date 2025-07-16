@@ -59,5 +59,5 @@ def scrape():
 
     avg_price = sum(prices) / len(prices)
     return jsonify({"avg_price": avg_price, "prices": prices})
-
-app.run(host="0.0.0.0", port=8080)
+if __name__ == "__main__" :
+    app.run(host="0.0.0.0", port=8080)
