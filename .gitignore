@@ -1,17 +1,31 @@
-# Ignore virtual environments
-venv/
-.env/
-
-# Ignore Python cache files
+# Python
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
 
-# Ignore macOS system files
-.DS_Store
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
-# Ignore VSCode settings (if using)
+# Virtual Environment
+venv/
+env/
+ENV/
+.env/
+
+# IDE
+.idea/
 .vscode/
+*.swp
+*.swo
 
-# Ignore Jupyter Notebook checkpoints (if any)
+# Project specific
+n8n-workflow-project-464813-4e1032a0108d.json
+main.py
+app.py
+
+# Misc
+.DS_Store
+*.log
 .ipynb_checkpoints/
